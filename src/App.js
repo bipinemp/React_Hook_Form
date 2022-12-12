@@ -59,6 +59,7 @@ function App() {
         {...register("confirmpassword")}
       />
       <p>{errors.confirmpassword?.message}</p>
+
       <input type="submit" />
     </form>
   );
